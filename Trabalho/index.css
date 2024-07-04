@@ -1,0 +1,153 @@
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(45deg,Grey,black) ;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.centro {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+}
+input {
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+.botao {
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+}
+.botao:hover {
+    background-color: green;
+}
+
+.clear {
+    padding: 2px;
+    border-radius: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: grey;
+    opacity: 50%;
+}
+
+.clear:disabled {
+    opacity: 10%;
+}
+
+.form-field {
+    margin-bottom: 10px;
+}
+
+.error {
+    background: red;
+    color: white;
+    display: none;
+} 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.conteiner {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+h1 {
+    font-size: 36px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin-block-end: 20px;
+    
+}
+
+.input-conteiner {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-conteiner input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+} 
+.input-conteiner input::placeholder {
+    color: white;
+}
+.input-conteiner img {
+    position: absolute;
+    right: 24px;
+    top: 20%;
+    margin-top: 5px;
+}
+.input-conteiner a {
+    font-size: 16px;
+    margin-top: 5px;
+    color: white;
+    text-decoration: none;
+}
+.input-conteiner a:hover {
+    text-decoration: underline;
+}
+div button {
+    width: 100%;
+    height: 50px;
+    background-color: #5100b5;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    font-size: 17px;
+}
+div button:hover {
+    background-color: #37007a;
+}
+.cadastro1 {
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+}
+.link{
+    text-align: center;
+    margin: 20px 0px;
+}
+.link p a{
+    font-size: 16px;
+    color: white;
+    font-size: 300;
+    text-decoration: none;
+}
+div p a:hover {
+    text-decoration: underline;
+}
